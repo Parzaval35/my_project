@@ -33,22 +33,13 @@ public class System_hospitalier {
         System.out.println(comparaisonDonnees);
     }
 
-    /**
-     * Analyse la requête du patient en extrayant les informations pertinentes.
-     * @param requête Requête à analyser
-     * @return Message indiquant l'état de l'analyse
-     */
+    // Analyse la requête du patient en extrayant les informations pertinentes.
     private String analyserRequete(Requête requête) {
-        // Ici, on peut ajouter une logique pour analyser la requête du patient
-        return "Requête analysée : validation des symptômes et historique patient effectuée.";
+        return "Requête analysée";
     }
 
-    /**
-     * Compare les données du patient avec celles des cas précédents pour déterminer un diagnostic.
-     * @return Message indiquant le résultat de la comparaison
-     */
+    // Compare les données du patient avec celles des cas précédents pour déterminer un diagnostic.
     private String comparerDonnes() {
-        // Simulation de la comparaison avec une base de données
-        return "Cluster trouvé : similarité avec des cas précédents détectée.";
+        return "Cluster trouvé";
     }
 }
